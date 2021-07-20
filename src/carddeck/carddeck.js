@@ -11,7 +11,6 @@ const CardDeck = () => {
         ;
     }
     ;
-    console.log(cardDeck);
     return cardDeck;
 };
 
