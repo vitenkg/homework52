@@ -70,39 +70,39 @@ class App extends Component {
     }
 
     newCards = () => {
-        //const mass = this.getCards(5);
-        const mass = [
-            {
-                rank: "3",
-                rankClass: "rank-3",
-                suit: "♠",
-                suitName: "spades",
-            },
-            {
-                rank: "9",
-                rankClass: "rank-9",
-                suit: "♠",
-                suitName: "spades",
-            },
-            {
-                rank: "10",
-                rankClass: "rank-10",
-                suit: "♥",
-                suitName: "hearts",
-            },
-            {
-                rank: "A",
-                rankClass: "rank-a",
-                suit: "♥",
-                suitName: "hearts",
-            },
-            {
-                rank: "Q",
-                rankClass: "rank-q",
-                suit: "♠",
-                suitName: "spades",
-            },
-        ];
+        const mass = this.getCards(5);
+        //const mass = [
+        //    {
+        //        rank: "3",
+        //        rankClass: "rank-3",
+        //        suit: "♠",
+        //        suitName: "spades",
+        //    },
+        //    {
+        //        rank: "9",
+        //        rankClass: "rank-9",
+        //        suit: "♠",
+        //        suitName: "spades",
+        //    },
+        //    {
+        //        rank: "10",
+        //        rankClass: "rank-10",
+        //        suit: "♥",
+        //        suitName: "hearts",
+        //    },
+        //    {
+        //        rank: "A",
+        //        rankClass: "rank-a",
+        //        suit: "♥",
+        //        suitName: "hearts",
+        //    },
+        //    {
+        //        rank: "Q",
+        //       rankClass: "rank-q",
+        //        suit: "♠",
+        //        suitName: "spades",
+        //    },
+        //];
         this.setState({
             onDesk: mass,
         })
